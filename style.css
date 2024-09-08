@@ -47,6 +47,8 @@ body{
     height: 140px;
     padding-top:15px ;
     border-radius: 20px;
+    padding: 20px;
+    width: 100%;
 }
 .contect-input:focus{
     border: 2px solid red;
