@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'outfit';
+    background: linear-gradient(#fff7f9,#d28598);
+}
+.contect-form{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.contect-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contect-left-title{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contect-left-title h2{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color:#a363aa ;
+}
+.contect-input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contect-left textarea{
+    height: 140px;
+    padding-top:15px ;
+    border-radius: 20px;
+}
+.contect-input:focus{
+    border: 2px solid red;
+
+
+}
+.contect-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff7f9;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,orange,rgb(203, 42, 69));
+    cursor: pointer;
+}
+@media (max-width:800px){
+    .contect-input{
+        width: 80vw;
+    }
+    
+}
